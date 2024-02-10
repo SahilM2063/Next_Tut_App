@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    width: 100%;
+    gap: 100px;
+}
+
+.imageContainer {
+    flex: 1;
+    position: relative;
+}
+
+.contactImage {
+    object-fit: contain;
+}
+
+.formContainer {
+    flex: 1;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form input,
+.form textarea {
+    padding: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: var(--text);
+    background-color: var(--bgSoft);
+    resize: none;
+}
+
+.formButton {
+    padding: 14px;
+    outline: none;
+    border: none;
+    color: var(--text);
+    background-color: var(--btn);
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}

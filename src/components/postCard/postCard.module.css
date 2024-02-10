@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top {
+    display: flex;
+}
+
+.imageContainer {
+    position: relative;
+    width: 90%;
+    height: 370px;
+}
+
+.postImage {
+    object-fit: cover;
+}
+
+.date {
+    font-size: 14px;
+    transform: rotate(270deg);
+    margin: auto;
+}
+
+.title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.desc {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 6px;
+}
+
+.link {
+    font-size: 14px;
+    font-weight: bold;
+}

@@ -9,3 +9,37 @@
     cursor: pointer;
     font-weight: bold;
 }
+
+.menuBtn {
+    display: none;
+}
+
+.mobileLinks {
+    display: none;
+}
+
+@media (max-width : 768px) {
+    .links {
+        display: none;
+    }
+
+    .menuBtn {
+        display: block;
+        cursor: pointer;
+    }
+
+    .mobileLinks {
+        position: absolute;
+        top: 100px;
+        right: 0;
+        width: 50%;
+        height: calc(100vh - 100px);
+        background-color: rebeccapurple;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        transition: height 0.5s ease-in-out;
+    }
+}

@@ -46,6 +46,40 @@
     position: relative;
 }
 
-.heroImage{
+.heroImage {
     object-fit: contain;
+}
+
+@media screen and (max-width : 1024px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .imageContainer {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width : 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .imageContainer {
+        display: none;
+    }
+
+    .brands {
+        margin: auto;
+    }
+
+    .title {
+        font-size: 48px;
+    }
+
 }

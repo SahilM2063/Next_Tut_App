@@ -1,0 +1,68 @@
+.container {
+    width: 100%;
+    display: flex;
+    gap: 100px;
+}
+
+.imageContainer {
+    flex: 1;
+    position: relative;
+    height: calc(100vh - 170px);
+}
+
+.postImage {
+    object-fit: cover;
+}
+
+.textContainer {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.title {
+    font-size: 48px;
+}
+
+.detail {
+    display: flex;
+    gap: 20px;
+}
+
+.detailText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.detailTitle {
+    color: gray;
+    font-weight: bold;
+}
+
+.detailValue {
+    font-weight: 500;
+}
+
+.content {
+    font-size: 18px;
+}
+
+.avatarContainer {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar {
+    object-fit: cover;
+}
+
+@media screen and (max-width:768px) {
+    .imageContainer {
+        display: none;
+    }
+}
